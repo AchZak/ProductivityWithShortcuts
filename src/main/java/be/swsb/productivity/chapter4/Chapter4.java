@@ -9,27 +9,19 @@ public class Chapter4 {
     public Chapter4() {
     }
 
-    private void _2_snarf() {
-        System.out.println("Lion-O");
-    }
-
     private void _1_lionO() {
         System.out.println("Snarf");
     }
 
+    private void _2_snarf() {
+        System.out.println("Lion-O");
+    }
+
     private void _3_cheetara() {
+
     }
 
     private String[] _4_thundercats() {
-        return new String[]{
-                "lion-o",
-                "jaga",
-                "panthro",
-                "tygra",
-                "cheetara",
-                "snarf",
-                "wily kit",
-                "wily kat"
-        };
+        return new String[]{"lion-o", "jaga", "panthro", "tygra", "cheetara", "snarf", "wily kit", "wily kat"};
     }
 }

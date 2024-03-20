@@ -4,23 +4,28 @@ public class Chapter6 {
 
     // ctrl+shift+enter after having pressed F2
     public String bar() {
-        if (!snarf(barf(wharf() {
-            return "No"
+        if (!snarf(barf(wharf()))) {
+            return "No";
         }
+        return "Yes";
     }
 
-    private boolean snarf(boolean b){
+    private boolean snarf(boolean b) {
         return !b;
     }
-    private boolean barf(boolean b){
+
+    private boolean barf(boolean b) {
         return !b;
     }
-    private boolean wharf(){
+
+    private boolean wharf() {
         return true;
     }
 
     // ctrl+shift+enter the line below
-    public void foo(
+    public void foo() {
+
+    }
 
 
 }

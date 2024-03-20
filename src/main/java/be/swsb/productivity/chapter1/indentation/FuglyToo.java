@@ -5,19 +5,23 @@ import static be.swsb.productivity.common.FuglyTestBuilder.fugly;
 
 public class FuglyToo {
 
+    // herpty
+    // derptyfff
+    // derp
+
     public static void indentMeProperlyPlease() {
         System.out.println(fugly()
                 .withEff("f")
-                                            .withYew("u")
-    .withGee("g")
-                    .withEll("l")
-                                                    .withYew("y")
-            .withFace(face()
-                                    .withEyes(1)
+                .withYew("u")
+                .withGee("g")
+                .withEll("l")
+                .withYew("y")
+                .withFace(face()
+                        .withEyes(1)
                         .withColor("poop-brown")
-        .withNosewidth(500)
-.build())
-                            .build()
-                                                                    .toString());
+                        .withNosewidth(500)
+                        .build())
+                .build()
+                .toString());
     }
 }

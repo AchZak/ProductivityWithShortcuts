@@ -7,6 +7,10 @@ public class Decepticon {
         this.type = type;
     }
 
+    public Decepticon() {
+
+    }
+
     public static DecepticonEnum megatronEnum(){
         return DecepticonEnum.GUN;
     }
